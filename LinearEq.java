@@ -13,6 +13,7 @@ public class LinearEq
         double c= Integer.parseInt(args[2]);
 
         double x=(c-b)/a;
-        System.out.println(x);
+        System.out.println(a+"*x+"+b+"="+c);
+        System.out.println("x="+x);
     }
 }
