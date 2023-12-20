@@ -16,6 +16,7 @@ public class GenThreeTest {
             // Create a ByteArrayOutputStream to capture the output
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
             PrintStream printStream = new PrintStream(outputStream);
+            
 
             // Redirect the standard output to the ByteArrayOutputStream
             PrintStream originalOut = System.out;
@@ -77,3 +78,4 @@ public class GenThreeTest {
         return extracted;
     }
 }
+        
