@@ -13,11 +13,11 @@ public class Triangle
         
         if(a+b>c && a+c>b && b+c>a)
         {
-            System.out.println("This can be a triangle");
+            System.out.println(a+", "+b+", "+c+": true");
         }
         else
         {
-            System.out.println("This cant be a triangle");
+            System.out.println(a+", "+b+", "+c+": false");
         }               
     }
 }
